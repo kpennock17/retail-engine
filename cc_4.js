@@ -61,5 +61,11 @@ for (let key in sampleProduct) {
 for (let key in sampleProduct) {
     console.log(`${key}: ${sampleProduct[key]}`)};
 
+//step 7
 
+for (let product of inventory) {
+    for (let [key, value] of Object.entries(product)) {
+        console.log(`${key}: ${value}`);
+    }
+    console.log("----");
 }
