@@ -7,7 +7,7 @@ let inventory = [
 ];
 
 discount = 0;
-for (let  product of products){
+for (let  product of inventory){
     switch (product.category){
         case "electronics":
             discount = .2
