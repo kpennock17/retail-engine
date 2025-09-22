@@ -1,9 +1,9 @@
 let inventory = [
-    {sku:"T-001",name:"T-Shirt",category:"Clothes",price:"20",inventory:"100"},
-    {sku:"S-002",name:"Soccer Ball",category:"Sports",price:"30",inventory:"200"},
-    {sku:"C-003",name:"Converse",category:"Shoes",price:"60",inventory:"150"},
-    {sku:"Comp-004",name:"Computer",category:"Electronic",price:"750",inventory:"75"},
-    {sku:"P-005",name:"Piano",category:"Music",price:"500",inventory:"25"},
+    {sku:"P-1",name:"Polo",category:"Clothes",price:"60",inventory:"50"},
+    {sku:"C-2",name:"Cleats",category:"Sports",price:"100",inventory:"20"},
+    {sku:"D-3",name:"Dunks",category:"Shoes",price:"160",inventory:"15"},
+    {sku:"N-4",name:"Nintendo",category:"Electronic",price:"500",inventory:"25"},
+    {sku:"G-5",name:"Guitar",category:"Music",price:"200",inventory:"25"},
 ];
 
 
