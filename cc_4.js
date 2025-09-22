@@ -67,5 +67,5 @@ for (let product of inventory) {
     for (let [key, value] of Object.entries(product)) {
         console.log(`${key}: ${value}`);
     }
-    console.log("----");
+    console.log("---------------------");
 }
