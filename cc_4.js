@@ -37,5 +37,14 @@ else {extraDiscount = 0;}
 
 console.log(extraDiscount);
 
+let subtotal = 0;
 
+for (let product of products){ 
+    if (inventory > 0) 
+    {subtotal += product.price; 
+    product.inventory--;}}
 
+    let finalTotal = subtotal * (1 - extraDiscount);
+    console.log(`Customer ${i} (${customerType}): $${finalTotal.toFixed(2)}`);
+
+console.log("Remaining inventory:", products);
