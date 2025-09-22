@@ -6,4 +6,29 @@ let inventory = [
     {sku:"G-5",name:"Guitar",category:"Music",price:"200",inventory:"25"},
 ];
 
+discount = 0;
+for (let  product of products){
+    switch (product.category){
+        case "electronics":
+            discount = .2
+        break;
+        case "apparel":
+            discount = .15
+        break;
+        case "household":
+        case "groceries":
+            discount = .10
+        break
+        default: 
+            discount = 0;
+            break;
+    }
+    let promoPrice = product.price * (1-discount);
+    product.promoPrice = promoPrice;
+
+}
+console.log(products)
+
+
+
 
