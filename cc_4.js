@@ -29,6 +29,13 @@ for (let  product of products){
 }
 console.log(products)
 
+let extraDiscount;
+
+if (customerType === "Student") { extraDiscount = 0.05;} 
+else if (customerType === "Senior") {extraDiscount = 0.07;} 
+else {extraDiscount = 0;}
+
+console.log(extraDiscount);
 
 
 
